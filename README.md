@@ -12,7 +12,11 @@ Collected datasets used in publications applying persistent homology to problems
 
 2. _Emmett, K., Rosenbloom, D., Camara, P., Rabadan, R. Parametric Inference Using Persistence Diagrams: A Case study in Population Genetics. ICML Workshop on Topological Methods in MAchine Learning (2014)._
 
-* ms Datasets
+Results in this paper relied on coalescent simulations generated using [`ms`](http://home.uchicago.edu/rhudson1/source/mksamples.html).
+We provide two sample datasets, one with recombination and one without.
+
+* `icml2014/ms_n100_t500_r100`: With recombination. 100 samples, scaled mutation rate 500 and scaled recombination rate recombination of 100. Provided as a binary sequence matrix.
+* `icml2014/ms_n100_t500_r0`: No recombination. 100 samples, scaled mutation rate 500 and no recombination. Provided as a binary sequence matrix.
 
 3. _Emmett, K., and Rabadan, R. Characterizing Scales of Genetic Recombination and Antibiotic Resistance in Pathogenic Bacteria Using Topological Data Analysis. Lecture Notes in Computer Sciences 540--551 (2014)._
 
