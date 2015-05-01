@@ -22,3 +22,7 @@ We provide two sample datasets, one with recombination and one without.
 
 * Bacteria MLST
 * Bacteria PATRIC 
+
+##### Camara, P. G., Levine, A. J. and Rabadan, R. Inference of ancestral recombination graphs through topological data analysis. _To appear._
+
+* 112 Darwin's finches from Galapagos Islands. Provided as a FASTA file with the genetic variation of 142 homozygous bi-allelic SNPs present in a 9 Mb scaffold.
