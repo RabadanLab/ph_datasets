@@ -23,7 +23,7 @@ We provide two sample datasets, one with recombination and one without.
 * Bacteria MLST
 * Bacteria PATRIC 
 
-##### Camara, P. G., Levine, A. J. and Rabadan, R. Inference of ancestral recombination graphs through topological data analysis. _To appear._
+##### Camara, P. G., Levine, A. J. and Rabadan, R. Inference of ancestral recombination graphs through topological data analysis. [[arXiv]](http://arxiv.org/abs/1505.05815)
 
 * `TARGet/Darwin_Finches.fa`: 112 Darwin's finches from Galapagos Islands. Provided as a FASTA file with the genetic variation of 142 homozygous bi-allelic SNPs present in a 9 Mb scaffold.
 * `TARGet/Divergent_Populations_Isolated.fa`: 300 sequences with 300 segregating sites, sampled from two populations with sample sizes N and 0.2N, that diverged 24N generations before present. The scaled recombination rate is 40. 250 sequences are sampled from the first population and 50 from the second one. The sequences were generated using coalescent simulations with software [`ms`](http://home.uchicago.edu/rhudson1/source/mksamples.html).
