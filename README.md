@@ -5,8 +5,8 @@ Collected datasets used in publications applying persistent homology to problems
 
 ##### Chan, J., Carlsson, G., and Rabadan, R. Topology of viral evolution. _Proceedings of the National Academy of Sciences_ 110.46 (2013) 18566-18571. [[link]](http://www.pnas.org/content/110/46/18566.abstract)
 
-* `pnas2013/avian_HA_nt_concat_jukes_cantor.csv`: HA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged as a row vector.
-* `pnas2013/avian_all_nt_concat_jukes_cantor.csv`: Concatenated segments of influenza. Will have nontrivial topology. Provided as a distance matrix using Jukes-Cantor metric arranged as a row vector.
+* `pnas2013/avian_HA_nt_concat_jukes_cantor.csv`: HA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
+* `pnas2013/avian_all_nt_concat_jukes_cantor.csv`: Concatenated segments of influenza. Will have nontrivial topology. Provided as a distance matrix using Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
 
 * HIV Dataset
 
