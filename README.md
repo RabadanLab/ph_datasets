@@ -28,3 +28,11 @@ We provide two sample datasets, one with recombination and one without.
 * `TARGet/Darwin_Finches.fa`: 112 Darwin's finches from Galapagos Islands. Provided as a FASTA file with the genetic variation of 142 homozygous bi-allelic SNPs present in a 9 Mb scaffold.
 * `TARGet/Divergent_Populations_Isolated.fa`: 300 sequences with 300 segregating sites, sampled from two populations with sample sizes N and 0.2N, that diverged 24N generations before present. The scaled recombination rate is 40. 250 sequences are sampled from the first population and 50 from the second one. The sequences were generated using coalescent simulations with software [`ms`](http://home.uchicago.edu/rhudson1/source/mksamples.html).
 * `TARGet/Divergent_Populations_Migration.fa`: Same as the previous set but with mutation rate between the two populations equal to 2N.
+
+#### ms: large-scale ms simulations
+
+Large-scale ms simulations for persistent homology algorithm development. Provided as binary matrix.
+
+* `ms/n5000`: generated with `ms 5000 1 -t 200 -r 200 500000`
+* `ms/n10000`: generated with `ms 10000 1 -t 200 -r 200 500000`
+* `ms/n20000`: generated with `ms 20000 1 -t 200 -r 200 500000`
