@@ -8,7 +8,6 @@ Collected datasets used in publications applying persistent homology to problems
 * `pnas2013/avian_HA_nt_concat_jukes_cantor.csv`: HA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
 * `pnas2013/avian_all_nt_concat_jukes_cantor.csv`: Concatenated segments of influenza. Will have nontrivial topology. Provided as a distance matrix using Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
 * `pnas2013/avian_NA_nt_concat_jukes_cantor.csv`: NA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
-
 * HIV Dataset
 
 ##### Emmett, K., Rosenbloom, D., Camara, P., Rabadan, R. Parametric Inference Using Persistence Diagrams: A Case study in Population Genetics. _ICML Workshop on Topological Methods in Machine Learning_ (2014). [[arXiv]](http://arxiv.org/abs/1406.4582)
