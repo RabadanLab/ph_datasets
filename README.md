@@ -8,6 +8,7 @@ Collected datasets used in publications applying persistent homology to problems
 * `pnas2013/avian_HA_nt_concat_jukes_cantor.csv`: HA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
 * `pnas2013/avian_all_nt_concat_jukes_cantor.csv`: Concatenated segments of influenza. Will have nontrivial topology. Provided as a distance matrix using Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
 * `pnas2013/avian_NA_nt_concat_jukes_cantor.csv`: NA segment of influenza. Will have trivial topology. Provided as a distance matrix using a Jukes-Cantor metric arranged lower diagonal, column wise. [output of Matlab's `seqpdist`]
+* `HIV`: See section below.
 
 ##### Emmett, K., Rosenbloom, D., Camara, P., Rabadan, R. Parametric Inference Using Persistence Diagrams: A Case study in Population Genetics. _ICML Workshop on Topological Methods in Machine Learning_ (2014). [[arXiv]](http://arxiv.org/abs/1406.4582)
 
@@ -30,7 +31,7 @@ We provide two sample datasets, one with recombination and one without.
 
 #### ms: large-scale ms simulations
 
-Large-scale ms simulations for persistent homology algorithm development. Provided as binary matrix.
+Large-scale ms simulations for persistent homology algorithm development. Provided as binary sequence matrices.
 
 * `ms/n5000`: generated with `ms 5000 1 -t 200 -r 200 500000`
 * `ms/n10000`: generated with `ms 10000 1 -t 200 -r 200 500000`
@@ -38,7 +39,7 @@ Large-scale ms simulations for persistent homology algorithm development. Provid
 
 #### HIV
 
-HIV alignments downloaded from LANL (October 2015). Similar to HIV dataset from (Chan 2013).
+HIV alignments from Los Alamov HIV Database (downloaded October 2015). Similar to HIV dataset from (Chan 2013).
 
 * `hiv/HIV1_FLT_2014_env_DNA.p-dist.csv`: ENV protein [output of Matlab's `seqpdist`]
 * `hiv/HIV1_FLT_2014_gag_DNA.p-dist.csv`: GAG protein [output of Matlab's `seqpdist`]
